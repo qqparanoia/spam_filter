@@ -13,4 +13,3 @@ if __name__ == '__main__':
     score = quality.compute_quality_for_corpus(DIR)
     print(score)
     os.remove(DIR+"/!prediction.txt")
-
